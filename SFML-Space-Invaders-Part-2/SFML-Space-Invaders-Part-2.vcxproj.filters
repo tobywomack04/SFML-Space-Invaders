@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{c88dfaf0-74b7-47d8-bfcb-92c845ffc1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileIO">
+      <UniqueIdentifier>{0d3a52ca-18c2-425d-8241-155edb8ed467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Objects">
+      <UniqueIdentifier>{6fecbac4-6dde-4807-90d3-87a19eeb85f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{dcac20a3-a8b5-48bb-8969-4bd57e363da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Select">
+      <UniqueIdentifier>{f177e66e-9e2b-44bf-9018-57932e58a68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Game">
+      <UniqueIdentifier>{67dc6e9d-9542-4114-bdab-bac6d613f74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{f280229c-7e29-4079-9f70-3ee692300ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileIO">
+      <UniqueIdentifier>{c155f503-0f11-4455-9029-84b3025e43c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects">
+      <UniqueIdentifier>{42c85e96-9b7c-4ee2-9255-223877404f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens">
+      <UniqueIdentifier>{8ba8b59f-8950-4f6e-ac6b-033f7ba09473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens\Select">
+      <UniqueIdentifier>{891cb2b0-953a-4d77-af21-646c0d034de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens\Game">
+      <UniqueIdentifier>{746def00-a379-4bbf-a412-253c2eae7acd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\DevelopState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GameEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="code\SoundEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ScreenManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="code\BitmapStore.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ScreenManagerRemoteControl.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Button.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="code\UIPanel.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="code\InputHandler.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Screen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="code\SelectScreen.h">
+      <Filter>Header Files\Screens\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="code\SelectUIPanel.h">
+      <Filter>Header Files\Screens\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="code\SelectInputHandler.h">
+      <Filter>Header Files\Screens\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="code\WorldState.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GameScreen.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GameUIPanel.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GameOverInputHandler.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GameOverUIPanel.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GameInputHandler.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Component.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ColliderComponent.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\RectColliderComponent.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\StandardGraphicsComponent.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\TransformComponent.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GraphicsComponent.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\UpdateComponent.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\BulletUpdateComponent.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\InvaderUpdateComponent.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\PlayerUpdateComponent.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GameObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GameObjectBlueprint.h">
+      <Filter>Header Files\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ObjectTags.h">
+      <Filter>Header Files\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="code\BlueprintObjectParser.h">
+      <Filter>Header Files\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="code\PlayModeObjectLoader.h">
+      <Filter>Header Files\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GameObjectFactoryPlayMode.h">
+      <Filter>Header Files\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="code\GameObjectSharer.h">
+      <Filter>Header Files\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="code\LevelManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="code\BulletSpawner.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="code\PhysicsEnginePlayMode.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\Space Invaders ++.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GameEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="code\SoundEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ScreenManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="code\BitmapStore.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ScreenManagerRemoteControl.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Button.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="code\UIPanel.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="code\InputHandler.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Screen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="code\SelectInputHandler.cpp">
+      <Filter>Source Files\Screens\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="code\SelectScreen.cpp">
+      <Filter>Source Files\Screens\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="code\SelectUIPanel.cpp">
+      <Filter>Source Files\Screens\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GameInputHandler.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GameScreen.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GameOverUIPanel.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GameOverInputHandler.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GameUIPanel.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ColliderComponent.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Component.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\RectColliderComponent.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GraphicsComponent.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\StandardGraphicsComponent.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\TransformComponent.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\BulletUpdateComponent.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\UpdateComponent.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\InvaderUpdateComponent.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\PlayerUpdateComponent.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GameObject.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GameObjectBlueprint.cpp">
+      <Filter>Source Files\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ObjectTags.cpp">
+      <Filter>Source Files\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="code\BlueprintObjectParser.cpp">
+      <Filter>Source Files\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="code\PlayModeObjectLoader.cpp">
+      <Filter>Source Files\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="code\GameObjectFactoryPlayMode.cpp">
+      <Filter>Source Files\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="code\LevelManager.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="code\BulletSpawner.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="code\PhysicsEnginePlayMode.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
