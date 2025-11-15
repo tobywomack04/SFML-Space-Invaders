@@ -54,6 +54,7 @@
     <ClInclude Include="code\SelectUIPanel.h" />
     <ClInclude Include="code\SoundEngine.h" />
     <ClInclude Include="code\StandardGraphicsComponent.h" />
+    <ClInclude Include="code\StandardGraphicsRed.h" />
     <ClInclude Include="code\TransformComponent.h" />
     <ClInclude Include="code\UIPanel.h" />
     <ClInclude Include="code\UpdateComponent.h" />
@@ -94,6 +95,7 @@
     <ClCompile Include="code\SoundEngine.cpp" />
     <ClCompile Include="code\Space Invaders ++.cpp" />
     <ClCompile Include="code\StandardGraphicsComponent.cpp" />
+    <ClCompile Include="code\StandardGraphicsRed.cpp" />
     <ClCompile Include="code\TransformComponent.cpp" />
     <ClCompile Include="code\UIPanel.cpp" />
     <ClCompile Include="code\UpdateComponent.cpp" />

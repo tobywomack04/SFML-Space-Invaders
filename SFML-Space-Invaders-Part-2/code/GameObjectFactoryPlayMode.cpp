@@ -2,6 +2,7 @@
 #include <iostream>
 #include "TransformComponent.h"
 #include "StandardGraphicsComponent.h"
+#include "StandardGraphicsRed.h"
 #include "PlayerUpdateComponent.h"
 #include "RectColliderComponent.h"
 #include "InvaderUpdateComponent.h"
@@ -16,9 +17,7 @@ void GameObjectFactoryPlayMode::buildGameObject(
 
 	auto it = bp.getComponentList().begin();
 	auto end = bp.getComponentList().end();
-	for (it;
-		it != end;
-		++it)
+	for (it; it != end; ++it)
 	{
 		if (*it == "Transform")
 		{
@@ -53,6 +52,17 @@ void GameObjectFactoryPlayMode::buildGameObject(
 				Vector2f(bp.getWidth(),
 					bp.getHeight()));
 		}
+		else if (*it == "Standard Graphics Red")
+		{
+			shared_ptr<StandardGraphicsRed> sgp =
+				make_shared<StandardGraphicsRed>();
+
+			gameObject.addComponent(sgp);
+			sgp->initializeGraphics(
+				bp.getBitmapName(),
+				Vector2f(bp.getWidth(),
+					bp.getHeight()));
+		}
 	}
 
 	if (bp.getEncompassingRectCollider()) {
@@ -69,4 +79,3 @@ void GameObjectFactoryPlayMode::buildGameObject(
 
 	gameObjects.push_back(gameObject);
 }
-
